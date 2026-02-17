@@ -18,42 +18,42 @@ export default function CompanyOverview() {
                   <span>and digital services platform</span>
                 </h2>
                 <p>
-                  TechkGuru Digital is a fintech and digital services platform
-                  focused on enabling secure, reliable, and accessible financial
+                  <b>TechkGuru Digital is a fintech and digital services platform</b>
+                  focused on enabling <b>secure, reliable, and accessible financial
                   and commerce solutions for businesses, agents, merchants, and
-                  enterprise partners across India.
+                  enterprise partners across India.</b>
                 </p>
                 <p>
-                  We provide a wide range of fintech services including AEPS,
+                  We provide a wide range of fintech services including <b>AEPS,
                   BBPS, Micro ATM (mATM), Point of Sale (POS), digital payment
-                  solutions, and credit card bill payments, along with digital
-                  commerce services such as e-commerce solutions, travel
-                  services, and holiday packages. Our platform is designed to
-                  simplify transactions, enhance operational efficiency, and
+                  solutions, and credit card bill payments,</b> along with digital
+                  commerce services such as <b>e-commerce solutions, travel
+                  services, and holiday packages.</b> Our platform is designed to
+                  <b>simplify transactions, enhance operational efficiency, and
                   support financial inclusion through technology-driven
-                  solutions.
+                  solutions.</b>
                 </p>
                 <p>
-                  At TechkGuru Digital, we operate with a strong emphasis on
-                  compliance, security, and transparency. All services are
-                  delivered through authorized banking and service partners and
-                  are aligned with applicable regulatory guidelines. We
-                  continuously work to ensure that our platform meets industry
-                  standards and supports responsible usage across our network.
+                  At <b>TechkGuru Digital,</b> we operate with a strong emphasis on
+                  <b>compliance, security, and transparency.</b> All services are
+                  delivered through <b>authorized banking and service partners</b> and
+                  are aligned with <b>applicable regulatory guidelines.</b> We
+                  continuously work to ensure that our platform meets <b>industry
+                  standards</b> and supports responsible usage across our network.
                 </p>
                 <p>
-                  Our scalable infrastructure supports multiple user roles,
-                  including Retailers, Distributors, Super Distributors, and
-                  Enterprise Clients, enabling seamless onboarding, real-time
-                  transaction monitoring, and efficient service management. By
-                  combining robust technology with dependable support, we help
-                  our partners expand their service offerings and grow their
-                  businesses with confidence.
+                  Our <b>scalable infrastructure</b> supports multiple user roles,
+                  including <b>Retailers, Distributors, Super Distributors, and
+                  Enterprise Clients,</b> enabling <b>seamless onboarding, real-time
+                  transaction monitoring, and efficient service management.</b> By
+                  combining <b>robust technology with dependable support,</b> we help
+                  our partners <b>expand their service offerings and grow their
+                  businesses with confidence.</b>
                 </p>
                 <p>
-                  Driven by innovation and guided by trust, TechkGuru Digital
-                  aims to build long-term partnerships while contributing to the
-                  growth of India’s digital and fintech ecosystem.
+                  Driven by <b>innovation and guided by trust,</b> TechkGuru Digital
+                  aims to build <b>long-term partnerships</b> while contributing to the
+                  growth of <b>India’s digital and fintech ecosystem.</b>
                 </p>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function CompanyOverview() {
 
               <div className="experience-counter-box">
                 <div className="experience-counter-no">
-                  <h2>25+</h2>
+                  <h2>7+</h2>
                 </div>
                 <div className="experience-counter-content">
                   <p>Years of experience in finance</p>
