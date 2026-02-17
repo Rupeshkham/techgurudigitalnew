@@ -68,7 +68,7 @@ export default function WhatWeDo() {
 
               <div className="experience-counter-box">
                 <div className="experience-counter-no">
-                  <h2>25+</h2>
+                  <h2>7+</h2>
                 </div>
                 <div className="experience-counter-content">
                   <p>Years of experience in finance</p>

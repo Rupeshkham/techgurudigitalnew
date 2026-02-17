@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Column 1 – About */}
           <div className="col-lg-4 col-md-6">
             <div className="footer-about">
-              <h3 className="mb-4">TechkGuru.digital</h3>
+              <h3 className="mb-4">TechkGuru Digital Private Limited.</h3>
               <p>
                 Reliable fintech and digital service solutions designed to
                 support agents, merchants, and businesses with secure and
