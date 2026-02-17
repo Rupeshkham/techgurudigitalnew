@@ -61,50 +61,34 @@ export default function AboutUs() {
                   <span>– Your Trusted Fintech & Digital Services Partner</span>
                 </h2>
                 <p className="wow fadeInUp" data-wow-delay="0.2s">
-                  At TechkGuru Digital, our mission is to simplify access to
-                  essential fintech and digital services by delivering secure,
-                  reliable, and technology-driven solutions. We are committed to
-                  bridging the gap between financial services and digital
-                  convenience, enabling businesses, agents, and service
-                  providers to operate more efficiently in today’s rapidly
-                  evolving digital ecosystem.
+                  TechkGuru Digital is a fintech and digital services platform
+                  focused on providing secure, reliable, and efficient
+                  solutions. Our goal is to simplify financial and digital
+                  services through modern technology and a user-friendly
+                  platform. We help businesses and partners access essential
+                  services with ease and confidence.
                 </p>
                 <p className="wow fadeInUp" data-wow-delay="0.2s">
-                  We offer a comprehensive range of fintech services, including
-                  AEPS (Aadhaar Enabled Payment Services), BBPS (Bharat Bill
-                  Payment System), credit card bill payments, payment solutions,
-                  Micro ATM (mATM), and Point of Sale (POS) services, along with
-                  digital commerce offerings such as e-commerce support, travel
-                  services, and holiday packages. Our platform is designed to
-                  provide seamless access to these services through a unified,
-                  user-friendly interface supported by reliable infrastructure
-                  and trusted service partners.
+                  We offer services including <b> AEPS, BBPS, credit card bill
+                  payments, payment solutions, Micro ATM (mATM), and POS, along
+                  with e-commerce, travel, and holiday services.</b> Our platform
+                  enables seamless transactions and supports partners in
+                  expanding their service offerings. We ensure consistent
+                  performance through trusted systems and infrastructure.
                 </p>
                 <p className="wow fadeInUp" data-wow-delay="0.2s">
-                  TechkGuru Digital focuses on empowering a wide network of
-                  retailers, distributors, super distributors, and enterprise
-                  partners , helping them expand their service offerings,
-                  increase operational efficiency, and create new business
-                  opportunities. By leveraging modern technology and scalable
-                  systems, we enable our partners to deliver fast, transparent,
-                  and dependable services to their customers.
+                  Our network includes <b> retailers, distributors, and business
+                  partners, </b> empowering them with scalable tools and reliable
+                  support. We help partners improve efficiency, serve more
+                  customers, and grow their business. Our platform is designed
+                  to support both small and large service providers.
                 </p>
                 <p className="wow fadeInUp" data-wow-delay="0.2s">
                   Security, compliance, and transparency are at the core of our
-                  operations. Our platform is built to align with applicable
-                  regulatory guidelines and industry best practices, ensuring
-                  that all transactions are processed through authorized
-                  channels and trusted networks. We continuously enhance our
-                  systems and processes to maintain high standards of data
-                  protection, operational integrity, and service reliability.
-                </p>
-                <p className="wow fadeInUp" data-wow-delay="0.2s">
-                  At TechkGuru Digital, we believe in building long-term
-                  partnerships based on trust, innovation, and mutual growth.
-                  Our vision is to contribute to the advancement of digital and
-                  financial inclusion by providing accessible, efficient, and
-                  dependable services that support businesses and communities
-                  across India.
+                  operations. We follow industry standards and work with
+                  authorized partners to ensure safe transactions. TechkGuru
+                  Digital is committed to building trusted partnerships and
+                  supporting digital growth across India.
                 </p>
               </div>
             </div>
