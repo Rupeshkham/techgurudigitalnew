@@ -1874,7 +1874,7 @@ header.main-header .header-sticky.active{
     display: inline-block;
     line-height: normal;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 0;
 	transform: translateY(-50%);
 }

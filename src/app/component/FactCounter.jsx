@@ -60,7 +60,7 @@ export default function FactCounter() {
                     />
                   </div>
                   <div className="fact-counter-box-content">
-                    <h2>10+</h2>
+                    <h2>10K+</h2>
                     <p>Successful Transactions Processed</p>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ export default function FactCounter() {
                     />
                   </div>
                   <div className="fact-counter-box-content">
-                    <h2>8+</h2>
+                    <h2>9+</h2>
                     <p>Digital & Fintech Services Offered</p>
                   </div>
                 </div>
