@@ -54,7 +54,7 @@ export default function OurApproach() {
               <div className="mission-vission-image">
                 <figure className="image-anime">
                   <Image
-                    src="/images/ourvision.jpeg"
+                    src="/images/our-mission-img.jpg"
                     alt="Mission"
                     width={400}
                     height={300}
@@ -92,7 +92,7 @@ export default function OurApproach() {
               <div className="mission-vission-image">
                 <figure className="image-anime">
                   <Image
-                    src="/images/ourvision.jpeg"
+                    src="/images/our-vision-img.jpg"
                     alt="Vision"
                     width={400}
                     height={300}
@@ -130,7 +130,7 @@ export default function OurApproach() {
               <div className="mission-vission-image">
                 <figure className="image-anime">
                   <Image
-                    src="/images/overvalue.jpeg"
+                    src="/images/our-value-img.jpg"
                     alt="Value"
                     width={400}
                     height={300}
