@@ -75,7 +75,7 @@ export default function Header() {
   return (
     <>
       {/* ============ MOBILE HEADER ============ */}
-      <div className="lg:hidden fixed top-0 w-full bg-[#fff] z-[999]">
+      <div className="mobile-header xl:hidden fixed top-0 w-full bg-white z-[999]">
         <div className="flex justify-between items-center p-4">
           <Link href="/">
             <Image
@@ -174,7 +174,7 @@ export default function Header() {
       </div>
       <div className="mt-[80px] md:mt-0"></div>
       {/* ============ DESKTOP HEADER (YOUR ORIGINAL CODE – UNTOUCHED) ============ */}
-      <header className="hidden lg:block relative bg-[#111827] pt-4 pb-18">
+      <header className="desktop-header hidden xl:block relative bg-[#111827] pt-4 pb-18">
         <div className="container mx-auto flex justify-between items-center text-white">
           <h6 className="text-[1rem] text-white">
             TechkGuru Digital — Your Trusted Fintech & Digital Services Partner

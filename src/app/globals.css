@@ -117,3 +117,15 @@ body {
 .terms-content li {
   margin-bottom: 6px;
 }
+
+@media (max-width: 1180px) {
+  .desktop-header {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1180px) {
+  .mobile-header {
+    display: block !important;
+  }
+}
