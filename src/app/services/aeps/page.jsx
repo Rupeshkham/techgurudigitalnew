@@ -141,179 +141,30 @@ export default function Aeps() {
                     </div>
                   </div>
 
-                  <div className="service-guidance">
-                      <h3 className="text-anime-style-2 mb-4">
-                      How AEPS Works
-                    </h3>
+                  <div className="service-list-video">
+                    <div className="service-entry-list wow fadeInUp">
+                      <h5 className="text-anime-style-2 mb-4">
+                        Who Benefits
+                      </h5>
+                      <ul>
+                        <li>Customers in rural and semi-urban areas</li>
+                        <li>Individuals with limited access to bank branches</li>
+                        <li>Agents and retailers offering banking services</li>
+                      </ul>
+                    </div>
 
                     
-
-                    {/* Service Guidance Box */}
-                    <div className="service-guidance-box">
-                      {/* Item 1 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.2s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-6.svg"
-                              alt="Market Analysis"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h5>Customer provides Aadhaar number and bank name</h5>
-                          </div>
-                        </div>
-
-                        
-                      </div>
-
-                      {/* Item 2 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.4s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-3.svg"
-                              alt="Ethical Investing"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h5>Biometric authentication is performed</h5>
-                          </div>
-                        </div>
-
-                        
-                      </div>
-
-                      {/* Item 3 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.6s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-2.svg"
-                              alt="Wealth Planning"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h5>Transaction is processed in real time</h5>
-                          </div>
-                        </div>
-
-                       
-                      </div>
-                    </div>
                   </div>
-                  <div className="services-steps">
-                    <h3 className="text-anime-style-2 mb-4">
-                      Who Benefits
-                    </h3>
+                  
+                 
+                  
+                  
+                  <div className="service-feature">
+                    <h5 className="text-anime-style-2 mb-4">
+                      Business Benefits
+                    </h5>
 
                    
-
-                    {/* Service Step Box */}
-                    <div className="service-steps-box">
-                      {/* Step Item List */}
-                      <div className="service-step-item-list">
-                        {/* Step 1 */}
-                        <div className="service-step-item wow fadeInUp">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-4.svg"
-                              alt="Retirement Planning"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-step-item-content">
-                            <h3>Customers in rural and semi-urban areas</h3>
-                            {/* <p>
-                              Financial goals are specific targets you set to
-                              achieve financial success.
-                            </p> */}
-                          </div>
-                        </div>
-
-                        {/* Step 2 */}
-                        <div
-                          className="service-step-item wow fadeInUp"
-                          data-wow-delay="0.2s"
-                        >
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-5.svg"
-                              alt="Tailored Strategy"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-step-item-content">
-                            <h3>- Individuals with limited access to bank branches</h3>
-                            {/* <p>
-                              Financial goals are specific targets you set to
-                              achieve financial success.
-                            </p> */}
-                          </div>
-                        </div>
-
-                        {/* Step 3 */}
-                        <div
-                          className="service-step-item wow fadeInUp"
-                          data-wow-delay="0.4s"
-                        >
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-6.svg"
-                              alt="Report Progress"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-step-item-content">
-                            <h3>Agents and retailers offering banking services</h3>
-                            {/* <p>
-                              Financial goals are specific targets you set to
-                              achieve financial success.
-                            </p> */}
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Entry List */}
-                      
-                    </div>
-                  </div>
-                  <div className="service-feature">
-                    <h3 className="text-anime-style-2 mb-4">
-                      Business Benefits
-                    </h3>
-
-                    {/* <p className="wow fadeInUp">
-                      Investment management features include personalized
-                      portfolio strategies, risk assessment, continuous
-                      monitoring, and performance optimization.
-                    </p> */}
-
-                    {/* Service Entry List */}
                     <div
                       className="service-entry-list wow fadeInUp"
                       data-wow-delay="0.2s"
@@ -329,7 +180,7 @@ export default function Aeps() {
                 </div>
 
                 {/* FAQ Section */}
-                <div className="our-faq-section">
+                <div className="our-faq-section mt-30">
                   <div className="section-title">
                     <h2 className="text-anime-style-2" data-cursor="-opaque">
                       Frequently asked questions

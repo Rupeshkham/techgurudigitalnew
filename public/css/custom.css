@@ -2392,7 +2392,7 @@ header.main-header .header-sticky.active{
 }
 
 .faq-accordion .accordion-header .accordion-button{
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.2em;
 	padding: 16px 45px 16px 20px;
@@ -3695,11 +3695,18 @@ footer.main-footer{
 	margin: 40px 0;
 }
 
+
 .service-list-video .service-entry-list{
+	width: calc(52% - 15px);
+}
+.service-list-video-col2 .service-entry-list{
 	width: calc(52% - 15px);
 }
 
 .service-list-video .service-entry-list ul li{
+	width: 100%;
+}
+.service-list-video-col2 .service-entry-list ul li{
 	width: 100%;
 }
 
@@ -5783,6 +5790,9 @@ footer.main-footer{
 	.service-list-video .service-entry-list{
 		width: calc(54% - 10px);
 	}
+	.service-list-video-col2 .service-entry-list{
+		width: calc(54% - 10px);
+	}
 
 	.service-image-video{
 		width: calc(46% - 10px);
@@ -6675,6 +6685,10 @@ footer.main-footer{
 	}
 
 	.service-list-video .service-entry-list,
+	.service-image-video{
+		width: 100%;
+	}
+	.service-list-video-col2 .service-entry-list,
 	.service-image-video{
 		width: 100%;
 	}

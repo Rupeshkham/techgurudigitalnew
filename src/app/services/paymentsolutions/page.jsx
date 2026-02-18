@@ -27,7 +27,7 @@ export default function PaymentSolutions() {
 
   return (
     <>
-    <Preloader/>
+      <Preloader />
       <Header />
       <PageHeader title="Payment Solutions" breadcrumb="paymentsolutions" />
       <div className="page-service-single">
@@ -46,10 +46,14 @@ export default function PaymentSolutions() {
                       <Link href="/services/bbps">BBPS</Link>
                     </li>
                     <li>
-                      <Link href="/services/creditcardbillpayment">Credit Card Bill Payment</Link>
+                      <Link href="/services/creditcardbillpayment">
+                        Credit Card Bill Payment
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/paymentsolutions">Payment Solutions</Link>
+                      <Link href="/services/paymentsolutions">
+                        Payment Solutions
+                      </Link>
                     </li>
                     <li>
                       <Link href="/services/pos">POS</Link>
@@ -125,181 +129,45 @@ export default function PaymentSolutions() {
                         <li>Other digital payment modes</li>
                       </ul>
                     </div>
-
-                   
                   </div>
 
-                  <div className="service-guidance">
-                    <h3 className="text-anime-style-2">
-                      Key Features
-                    </h3>
-                    {/* Service Guidance Box */}
-                    <div className="service-guidance-box">
-                      {/* Item 1 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.2s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-6.svg"
-                              alt="Market Analysis"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h3>Secure transaction processing</h3>
-                          </div>
+                  <div className="container my-5">
+                    <div className="row g-4 service-list-video-col2">
+                      {/* Left List */}
+                      <div className="col-md-6">
+                        <div className="service-entry-list">
+                          <h5 className="text-anime-style-2 mb-4">
+                            Key Features
+                          </h5>
+                          <ul>
+                            <li>Secure transaction processing</li>
+                            <li>Faster settlement cycles</li>
+                            <li>Easy payment acceptance</li>
+                            <li>Transaction tracking and reporting</li>
+                          </ul>
                         </div>
-
-                       
                       </div>
 
-                      {/* Item 2 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.4s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-3.svg"
-                              alt="Ethical Investing"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
+                      {/* Right List */}
+                      <div className="col-md-6">
+                        <div className="service-entry-list">
+                          <h5 className="text-anime-style-2 mb-4">Benefits</h5>
 
-                          <div className="service-guidance-title">
-                            <h3>Faster settlement cycles</h3>
-                          </div>
+                          {/* Service Entry List */}
+                          
+                            <ul>
+                              <li>Improved customer experience</li>
+                              <li>Reduced cash handling</li>
+                              <li>Increased transaction efficiency</li>
+                            </ul>
                         </div>
-
-                       
-                      </div>
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.4s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-3.svg"
-                              alt="Ethical Investing"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h3>Easy payment acceptance</h3>
-                          </div>
-                        </div>
-
-                       
-                      </div>
-
-                      {/* Item 3 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.6s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-2.svg"
-                              alt="Wealth Planning"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h3>Transaction tracking and reporting</h3>
-                          </div>
-                        </div>
-
-                        
                       </div>
                     </div>
                   </div>
-                  <div className="services-steps">
-                    <h3 className="text-anime-style-2">
-                      Who It’s For
-                    </h3>
 
-                    
-
-                    {/* Service Step Box */}
-                    <div className="service-steps-box">
-                      {/* Step Item List */}
-                      <div className="service-step-item-list">
-                        {/* Step 1 */}
-                        <div className="service-step-item wow fadeInUp">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-4.svg"
-                              alt="Retirement Planning"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-step-item-content">
-                            <h3>Retail merchants</h3>
-                          </div>
-                        </div>
-
-                        {/* Step 2 */}
-                        <div
-                          className="service-step-item wow fadeInUp"
-                          data-wow-delay="0.2s"
-                        >
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-5.svg"
-                              alt="Tailored Strategy"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-step-item-content">
-                            <h3>Online businesses</h3>
-                          </div>
-                        </div>
-
-                        {/* Step 3 */}
-                        <div
-                          className="service-step-item wow fadeInUp"
-                          data-wow-delay="0.4s"
-                        >
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-6.svg"
-                              alt="Report Progress"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-step-item-content">
-                            <h3>Service providers</h3>
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Entry List */}
-                      
-                    </div>
-                  </div>
+                  
                   <div className="service-feature">
-                    <h3 className="text-anime-style-2 mb-4">
-                      Benefits
-                    </h3>
+                    <h5 className="text-anime-style-2 mb-4">Benefits</h5>
 
                     {/* Service Entry List */}
                     <div
@@ -316,7 +184,7 @@ export default function PaymentSolutions() {
                 </div>
 
                 {/* FAQ Section */}
-                <div className="our-faq-section">
+                <div className="our-faq-section mt-30">
                   <div className="section-title">
                     <h2 className="text-anime-style-2" data-cursor="-opaque">
                       Frequently asked questions

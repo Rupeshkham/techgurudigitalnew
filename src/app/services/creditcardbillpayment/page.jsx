@@ -132,89 +132,24 @@ export default function CreditCardBillPayment() {
                     
                   </div>
 
-                  <div className="service-guidance">
-                    <h3 className="text-anime-style-2">
-                     Who Can Use
-                    </h3>
-
-                    
-
-                    {/* Service Guidance Box */}
-                    <div className="service-guidance-box">
-                      {/* Item 1 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.2s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-6.svg"
-                              alt="Market Analysis"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h3>Individual customers</h3>
-                          </div>
-                        </div>
-
-                        
-                      </div>
-
-                      {/* Item 2 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.4s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-3.svg"
-                              alt="Ethical Investing"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h3>Retail service points</h3>
-                          </div>
-                        </div>
-
-                       
-                      </div>
-
-                      {/* Item 3 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.6s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-2.svg"
-                              alt="Wealth Planning"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h3>Digital service agents</h3>
-                          </div>
-                        </div>
-
-                        
-                      </div>
+                  <div className="service-list-video">
+                    <div className="service-entry-list wow fadeInUp">
+                      <h5 className="text-anime-style-2 mb-4">
+                        Who Can Use
+                      </h5>
+                      <ul>
+                        <li>Individual customers</li>
+                        <li>Retail service points</li>
+                        <li>Digital service agents</li>
+                      </ul>
                     </div>
                   </div>
+
+                  
                   <div className="service-feature">
-                    <h3 className="text-anime-style-2 mb-4">
+                    <h5 className="text-anime-style-2 mb-4">
                       Advantages
-                    </h3>
+                    </h5>
 
                     {/* Service Entry List */}
                     <div
@@ -231,7 +166,7 @@ export default function CreditCardBillPayment() {
                 </div>
 
                 {/* FAQ Section */}
-                <div className="our-faq-section">
+                <div className="our-faq-section mt-30">
                   <div className="section-title">
                     <h2 className="text-anime-style-2" data-cursor="-opaque">
                       Frequently asked questions

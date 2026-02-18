@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function TeamSection() {
   const teamMembers = [
-    { name: "Azim Mithani", role: "Founder & Chief Financial Officer", img: "/images/team-1.jpg" },
+    { name: "Azim Mithani", role: "Founder & Chief Financial Officer", img: "/images/team-2.jpg" },
     { name: "Pratik Kawalkar", role: "Director – Banking Operations", img: "/images/team-2.jpg" },
-    { name: "Mustaq Merchant", role: " Head – Technology & Digital Operations", img: "/images/team-3.jpg" },
-    { name: "Miranda", role: "Head – Business Manager", img: "/images/team-4.jpg" },
-    { name: "Abhishek Bhosale", role: "Operations Executive (Field Operations)", img: "/images/team-5.jpg" },
+    { name: "Mustaq Merchant", role: " Head – Technology & Digital Operations", img: "/images/team-2.jpg" },
+    { name: "Miranda", role: "Head – Business Manager", img: "/images/team-5.jpg" },
+    { name: "Abhishek Bhosale", role: "Operations Executive (Field Operations)", img: "/images/team-4.jpg" },
   ];
 
   return (
