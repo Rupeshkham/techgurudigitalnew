@@ -19,7 +19,7 @@ const faqs = [
   {
     q: "Is biometric authentication mandatory for AEPS?",
     a: "Yes, biometric authentication is required to securely verify the customer’s identity before processing AEPS transactions.",
-  }
+  },
 ];
 
 export default function Aeps() {
@@ -27,9 +27,12 @@ export default function Aeps() {
 
   return (
     <>
-      <Preloader/>
+      <Preloader />
       <Header />
-      <PageHeader title="AEPS – Aadhaar Enabled Payment Services" breadcrumb="aeps" />
+      <PageHeader
+        title="AEPS – Aadhaar Enabled Payment Services"
+        breadcrumb="aeps"
+      />
       <div className="page-service-single">
         <div className="container">
           <div className="row">
@@ -46,10 +49,14 @@ export default function Aeps() {
                       <Link href="/services/bbps">BBPS</Link>
                     </li>
                     <li>
-                      <Link href="/services/creditcardbillpayment">Credit Card Bill Payment</Link>
+                      <Link href="/services/creditcardbillpayment">
+                        Credit Card Bill Payment
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/paymentsolutions">Payment Solutions</Link>
+                      <Link href="/services/paymentsolutions">
+                        Payment Solutions
+                      </Link>
                     </li>
                     <li>
                       <Link href="/services/pos">POS</Link>
@@ -131,50 +138,49 @@ export default function Aeps() {
                     </div>
 
                     <div className="service-image-video">
-                      
-                        <Image
-                          src="/images/aeps1.jpeg"
-                          alt="video"
-                          width={400}
-                          height={250}
-                        />
+                      <Image
+                        src="/images/aeps1.jpeg"
+                        alt="video"
+                        width={400}
+                        height={250}
+                      />
                     </div>
                   </div>
 
-                  <div className="service-list-video">
-                    <div className="service-entry-list wow fadeInUp">
-                      <h5 className="text-anime-style-2 mb-4">
-                        Who Benefits
-                      </h5>
-                      <ul>
-                        <li>Customers in rural and semi-urban areas</li>
-                        <li>Individuals with limited access to bank branches</li>
-                        <li>Agents and retailers offering banking services</li>
-                      </ul>
-                    </div>
+                  <div className=" my-5">
+                    <div className="row g-4 service-list-video-col2">
+                      {/* Left List */}
+                      <div className="col-md-6">
+                        <div className="service-entry-list wow fadeInUp">
+                          <h5 className="text-anime-style-2 mb-4">
+                            Who Benefits
+                          </h5>
+                          <ul>
+                            <li>Customers in rural and semi-urban areas</li>
+                            <li>
+                              Individuals with limited access to bank branches
+                            </li>
+                            <li>
+                              Agents and retailers offering banking services
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
 
-                    
-                  </div>
-                  
-                 
-                  
-                  
-                  <div className="service-feature">
-                    <h5 className="text-anime-style-2 mb-4">
-                      Business Benefits
-                    </h5>
+                      {/* Right List */}
+                      <div className="col-md-6">
+                        <div className="service-entry-list wow fadeInUp">
+                          <h5 className="text-anime-style-2 mb-4">
+                            Business Benefits
+                          </h5>
 
-                   
-                    <div
-                      className="service-entry-list wow fadeInUp"
-                      data-wow-delay="0.2s"
-                    >
-                      <ul>
-                        <li>Increased customer footfall</li>
-                        <li>Additional commission-based income</li>
-                        <li>Contribution to financial inclusion</li>
-                        
-                      </ul>
+                          <ul>
+                            <li>Increased customer footfall</li>
+                            <li>Additional commission-based income</li>
+                            <li>Contribution to financial inclusion</li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

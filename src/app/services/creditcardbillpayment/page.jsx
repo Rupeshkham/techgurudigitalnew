@@ -20,7 +20,6 @@ const faqs = [
     q: "Is it safe to pay credit card bills through this service?",
     a: "Yes, transactions are processed through secure systems following standard security practices.",
   },
-  
 ];
 
 export default function CreditCardBillPayment() {
@@ -28,7 +27,7 @@ export default function CreditCardBillPayment() {
 
   return (
     <>
-      <Preloader/>
+      <Preloader />
       <Header />
       <PageHeader
         title="Credit Card Bill Payment"
@@ -50,10 +49,14 @@ export default function CreditCardBillPayment() {
                       <Link href="/services/bbps">BBPS</Link>
                     </li>
                     <li>
-                      <Link href="/services/creditcardbillpayment">Credit Card Bill Payment</Link>
+                      <Link href="/services/creditcardbillpayment">
+                        Credit Card Bill Payment
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/paymentsolutions">Payment Solutions</Link>
+                      <Link href="/services/paymentsolutions">
+                        Payment Solutions
+                      </Link>
                     </li>
                     <li>
                       <Link href="/services/pos">POS</Link>
@@ -118,9 +121,7 @@ export default function CreditCardBillPayment() {
 
                   <div className="service-list-video">
                     <div className="service-entry-list wow fadeInUp">
-                      <h5 className="text-anime-style-2 mb-4">
-                        Key Features
-                      </h5>
+                      <h5 className="text-anime-style-2 mb-4">Key Features</h5>
                       <ul>
                         <li>Secure processing of card bill payments</li>
                         <li>Support for major banks and card issuers</li>
@@ -128,39 +129,40 @@ export default function CreditCardBillPayment() {
                         <li>Timely payment confirmations</li>
                       </ul>
                     </div>
-
-                    
                   </div>
 
-                  <div className="service-list-video">
-                    <div className="service-entry-list wow fadeInUp">
-                      <h5 className="text-anime-style-2 mb-4">
-                        Who Can Use
-                      </h5>
-                      <ul>
-                        <li>Individual customers</li>
-                        <li>Retail service points</li>
-                        <li>Digital service agents</li>
-                      </ul>
-                    </div>
-                  </div>
+                  <div className=" my-5">
+                    <div className="row g-4 service-list-video-col2">
+                      {/* Left List */}
+                      <div className="col-md-5">
+                        <div className="service-entry-list wow fadeInUp">
+                          <h5 className="text-anime-style-2 mb-4">
+                            Who Can Use
+                          </h5>
+                          <ul>
+                            <li>Individual customers</li>
+                            <li>Retail service points</li>
+                            <li>Digital service agents</li>
+                          </ul>
+                        </div>
+                      </div>
 
-                  
-                  <div className="service-feature">
-                    <h5 className="text-anime-style-2 mb-4">
-                      Advantages
-                    </h5>
+                      {/* Right List */}
+                      <div className="col-md-7">
+                        <div className="service-entry-list wow fadeInUp">
+                          <h5 className="text-anime-style-2 mb-4">
+                            Advantages
+                          </h5>
 
-                    {/* Service Entry List */}
-                    <div
-                      className="service-entry-list wow fadeInUp"
-                      data-wow-delay="0.2s"
-                    >
-                      <ul>
-                        <li>Convenience for customers</li>
-                        <li>Additional revenue stream for agents</li>
-                        <li>Reduced dependency on bank branches</li>
-                      </ul>
+                          {/* Service Entry List */}
+
+                          <ul>
+                            <li>Convenience for customers</li>
+                            <li>Additional revenue stream for agents</li>
+                            <li>Reduced dependency on bank branches</li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -131,7 +131,7 @@ export default function PaymentSolutions() {
                     </div>
                   </div>
 
-                  <div className="container my-5">
+                  <div className=" my-5">
                     <div className="row g-4 service-list-video-col2">
                       {/* Left List */}
                       <div className="col-md-6">
@@ -154,33 +154,18 @@ export default function PaymentSolutions() {
                           <h5 className="text-anime-style-2 mb-4">Benefits</h5>
 
                           {/* Service Entry List */}
-                          
-                            <ul>
-                              <li>Improved customer experience</li>
-                              <li>Reduced cash handling</li>
-                              <li>Increased transaction efficiency</li>
-                            </ul>
+
+                          <ul>
+                            <li>Improved customer experience</li>
+                            <li>Reduced cash handling</li>
+                            <li>Increased transaction efficiency</li>
+                          </ul>
                         </div>
                       </div>
                     </div>
                   </div>
 
                   
-                  <div className="service-feature">
-                    <h5 className="text-anime-style-2 mb-4">Benefits</h5>
-
-                    {/* Service Entry List */}
-                    <div
-                      className="service-entry-list wow fadeInUp"
-                      data-wow-delay="0.2s"
-                    >
-                      <ul>
-                        <li>Improved customer experience</li>
-                        <li>Reduced cash handling</li>
-                        <li>Increased transaction efficiency</li>
-                      </ul>
-                    </div>
-                  </div>
                 </div>
 
                 {/* FAQ Section */}

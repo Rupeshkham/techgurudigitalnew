@@ -134,7 +134,7 @@ export default function ECommerceSolutions() {
                   </div>
 
                   <div className="service-feature">
-                    <h2 className="text-anime-style-2">Benefits</h2>
+                    <h5 className="text-anime-style-2 mb-3">Benefits</h5>
 
                     {/* Service Entry List */}
                     <div
@@ -151,7 +151,7 @@ export default function ECommerceSolutions() {
                 </div>
 
                 {/* FAQ Section */}
-                <div className="our-faq-section">
+                <div className="our-faq-section mt-30">
                   <div className="section-title">
                     <h2 className="text-anime-style-2" data-cursor="-opaque">
                       Frequently asked questions

@@ -147,10 +147,12 @@ export default function Bbps() {
                       />
                     </div>
                   </div>
-
-                  <div className="service-list-video">
-                    <div className="service-entry-list wow fadeInUp">
-                      <h5 className="text-anime-style-2 mb-4">
+                  <div className=" my-5">
+                    <div className="row g-4 service-list-video-col2">
+                      {/* Left List */}
+                      <div className="col-md-6">
+                        <div className="service-entry-list wow fadeInUp">
+                          <h5 className="text-anime-style-2 mb-4">
                         Key Capabilities
                       </h5>
                       <ul>
@@ -159,23 +161,24 @@ export default function Bbps() {
                         <li>Secure transaction processing</li>
                         <li>Instant confirmation and receipts</li>
                       </ul>
-                    </div>
-                  </div>
-                  <div className="service-feature">
-                    <h5 className="text-anime-style-2 mb-4">
-                      Benefits for Agents & Merchants
-                    </h5>
-                  </div>
+                        </div>
+                      </div>
 
-                  <div
-                    className="service-entry-list wow fadeInUp"
-                    data-wow-delay="0.2s"
-                  >
-                    <ul>
-                      <li>High daily transaction demand</li>
-                      <li>Repeat customer visits</li>
-                      <li>Reliable bill payment infrastructure</li>
-                    </ul>
+                      {/* Right List */}
+                      <div className="col-md-6">
+                        <div className="service-entry-list wow fadeInUp">
+                          <h5 className="text-anime-style-2 mb-4">
+                            Benefits for Agents & Merchants
+                          </h5>
+
+                          <ul>
+                            <li>High daily transaction demand</li>
+                            <li>Repeat customer visits</li>
+                            <li>Reliable bill payment infrastructure</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 

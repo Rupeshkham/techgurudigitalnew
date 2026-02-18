@@ -19,7 +19,7 @@ const faqs = [
   {
     q: "Who can operate a Micro ATM?",
     a: "Authorized merchants or agents who complete the required onboarding and verification process can operate mATM services.",
-  }
+  },
 ];
 
 export default function MATM() {
@@ -27,7 +27,7 @@ export default function MATM() {
 
   return (
     <>
-    <Preloader/>
+      <Preloader />
       <Header />
       <PageHeader title="Micro ATM (mATM)" breadcrumb="matm" />
       <div className="page-service-single">
@@ -46,10 +46,14 @@ export default function MATM() {
                       <Link href="/services/bbps">BBPS</Link>
                     </li>
                     <li>
-                      <Link href="/services/creditcardbillpayment">Credit Card Bill Payment</Link>
+                      <Link href="/services/creditcardbillpayment">
+                        Credit Card Bill Payment
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/services/paymentsolutions">Payment Solutions</Link>
+                      <Link href="/services/paymentsolutions">
+                        Payment Solutions
+                      </Link>
                     </li>
                     <li>
                       <Link href="/services/pos">POS</Link>
@@ -123,113 +127,48 @@ export default function MATM() {
                         <li>Mini statement</li>
                       </ul>
                     </div>
-
-                   
                   </div>
 
-                  <div className="service-guidance">
-                    <h3 className="text-anime-style-2">
-                      How mATM Helps
-                    </h3>
-
-                    
-
-                    {/* Service Guidance Box */}
-                    <div className="service-guidance-box">
-                      {/* Item 1 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.2s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-6.svg"
-                              alt="Market Analysis"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h3>Brings banking services closer to customers</h3>
-                          </div>
+                  <div className=" my-5">
+                    <div className="row g-4 service-list-video-col2">
+                      {/* Left List */}
+                      <div className="col-md-7">
+                        <div className="service-entry-list">
+                          <h5 className="text-anime-style-2 mb-4">
+                            How mATM Helps
+                          </h5>
+                          <ul>
+                            <li>Brings banking services closer to customers</li>
+                            <li>Reduces pressure on bank branches and ATMs</li>
+                            <li>
+                              Enables merchants to act as local banking points
+                            </li>
+                          </ul>
                         </div>
-
-                       
                       </div>
 
-                      {/* Item 2 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.4s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-3.svg"
-                              alt="Ethical Investing"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
+                      {/* Right List */}
+                      <div className="col-md-5">
+                        <div className="service-entry-list">
+                          <h5 className="text-anime-style-2 mb-4">
+                            Business Advantages
+                          </h5>
 
-                          <div className="service-guidance-title">
-                            <h3>Reduces pressure on bank branches and ATMs</h3>
-                          </div>
+                          {/* Service Entry List */}
+
+                          <ul>
+                            <li>Increased footfall</li>
+                            <li>Commission-based earnings</li>
+                            <li>Low operational complexity</li>
+                          </ul>
                         </div>
-
-                       
                       </div>
-
-                      {/* Item 3 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.6s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-2.svg"
-                              alt="Wealth Planning"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h3>Enables merchants to act as local banking points</h3>
-                          </div>
-                        </div>
-
-                        
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="service-feature">
-                    <h3 className="text-anime-style-2 mb-4">
-                      Business Advantages
-                    </h3>
-
-                    
-
-                    {/* Service Entry List */}
-                    <div
-                      className="service-entry-list wow fadeInUp"
-                      data-wow-delay="0.2s"
-                    >
-                      <ul>
-                        <li>Increased footfall</li>
-                        <li>Commission-based earnings</li>
-                        <li>Low operational complexity</li>
-                      </ul>
                     </div>
                   </div>
                 </div>
 
                 {/* FAQ Section */}
-                <div className="our-faq-section">
+                <div className="our-faq-section mt-30">
                   <div className="section-title">
                     <h2 className="text-anime-style-2" data-cursor="-opaque">
                       Frequently asked questions

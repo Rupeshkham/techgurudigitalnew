@@ -132,7 +132,7 @@ export default function TravelServices() {
                   </div>
 
                   <div className="service-feature">
-                    <h2 className="text-anime-style-2">Advantages</h2>
+                    <h5 className="text-anime-style-2 mb-3">Advantages</h5>
 
                     {/* Service Entry List */}
                     <div
@@ -149,7 +149,7 @@ export default function TravelServices() {
                 </div>
 
                 {/* FAQ Section */}
-                <div className="our-faq-section">
+                <div className="our-faq-section mt-30">
                   <div className="section-title">
                     <h2 className="text-anime-style-2" data-cursor="-opaque">
                       Frequently asked questions

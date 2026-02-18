@@ -128,157 +128,45 @@ export default function POS() {
                     
                   </div>
 
-                  <div className="service-guidance">
-                    <h4 className="text-anime-style-2">
-                      Who Should Use POS
-                    </h4>
-
-                    {/* Service Guidance Box */}
-                    <div className="service-guidance-box">
-                      {/* Item 1 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.2s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-6.svg"
-                              alt="Market Analysis"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h3>Retail stores</h3>
-                          </div>
+                  <div className=" my-5">
+                    <div className="row g-4 service-list-video-col2">
+                      {/* Left List */}
+                      <div className="col-md-6">
+                        <div className="service-entry-list">
+                          <h5 className="text-anime-style-2 mb-4">
+                            Who Should Use POS
+                          </h5>
+                          <ul>
+                            <li>Retail stores</li>
+                            <li>Restaurants</li>
+                            <li>Service outlets</li>
+                          </ul>
                         </div>
-
-                       
                       </div>
 
-                      {/* Item 2 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.4s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-3.svg"
-                              alt="Ethical Investing"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
+                      {/* Right List */}
+                      <div className="col-md-6">
+                        <div className="service-entry-list">
+                          <h5 className="text-anime-style-2 mb-4">Benefits</h5>
 
-                          <div className="service-guidance-title">
-                            <h3>Restaurants</h3>
-                          </div>
+                          {/* Service Entry List */}
+
+                          <ul>
+                            <li>Reduced cash dependency</li>
+                            <li>Improved payment convenience</li>
+                            <li>Increased sales opportunities</li>
+                          </ul>
                         </div>
-
-                        
-                      </div>
-
-                      {/* Item 3 */}
-                      <div
-                        className="service-guidance-item wow fadeInUp"
-                        data-wow-delay="0.6s"
-                      >
-                        <div className="service-guidance-content">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-2.svg"
-                              alt="Wealth Planning"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-guidance-title">
-                            <h3>Service outlets</h3>
-                          </div>
-                        </div>
-
-                        
                       </div>
                     </div>
                   </div>
-                  <div className="services-steps">
-                    <h4 className="text-anime-style-2">
-                      Benefits
-                    </h4>
-                    {/* Service Step Box */}
-                    <div className="service-steps-box">
-                      {/* Step Item List */}
-                      <div className="service-step-item-list">
-                        {/* Step 1 */}
-                        <div className="service-step-item wow fadeInUp">
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-4.svg"
-                              alt="Retirement Planning"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
 
-                          <div className="service-step-item-content">
-                            <h3>Reduced cash dependency</h3>
-                            
-                          </div>
-                        </div>
-
-                        {/* Step 2 */}
-                        <div
-                          className="service-step-item wow fadeInUp"
-                          data-wow-delay="0.2s"
-                        >
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-5.svg"
-                              alt="Tailored Strategy"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-step-item-content">
-                            <h3>Improved payment convenience</h3>
-                            
-                          </div>
-                        </div>
-
-                        {/* Step 3 */}
-                        <div
-                          className="service-step-item wow fadeInUp"
-                          data-wow-delay="0.4s"
-                        >
-                          <div className="icon-box">
-                            <Image
-                              src="/images/icon-service-6.svg"
-                              alt="Report Progress"
-                              width={40}
-                              height={40}
-                            />
-                          </div>
-
-                          <div className="service-step-item-content">
-                            <h3>Increased sales opportunities</h3>
-                            
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Entry List */}
-                    </div>
-                  </div>
+                  
                   
                 </div>
 
                 {/* FAQ Section */}
-                <div className="our-faq-section">
+                <div className="our-faq-section mt-30">
                   <div className="section-title">
                     <h2 className="text-anime-style-2" data-cursor="-opaque">
                       Frequently asked questions
