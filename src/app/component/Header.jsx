@@ -75,7 +75,7 @@ export default function Header() {
   return (
     <>
       {/* ============ MOBILE HEADER ============ */}
-<div className="lg:hidden fixed top-0 w-full bg-[#fff] z-[999]">
+      <div className="lg:hidden fixed top-0 w-full bg-[#fff] z-[999]">
         <div className="flex justify-between items-center p-4">
           <Link href="/">
             <Image
