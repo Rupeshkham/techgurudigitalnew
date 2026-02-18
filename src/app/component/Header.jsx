@@ -269,6 +269,19 @@ export default function Header() {
                           </p>
                         </Link>
 
+                        <Link href="/" className="mega-item">
+                          <img
+                            src="/images/icon-service-4.svg"
+                            className="w-10 mb-3"
+                          />
+                          <h4 className="text-white font-semibold">
+                            Company Profile 
+                          </h4>
+                          <p className="text-gray-300 text-sm">
+                            Focused on compliance, reliability, and scalable
+                            digital service delivery.
+                          </p>
+                        </Link>
                         <Link href="/contact" className="mega-item">
                           <img
                             src="/images/icon-service-4.svg"

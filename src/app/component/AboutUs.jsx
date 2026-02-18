@@ -41,12 +41,12 @@ export default function AboutUs() {
               </div>
 
               <div className="contact-circle">
-                <Image
+                {/* <Image
                   src="/images/contact-us-img.svg"
                   alt="Contact"
                   width={160}
                   height={160}
-                />
+                /> */}
               </div>
             </div>
           </div>

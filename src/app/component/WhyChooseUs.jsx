@@ -130,12 +130,12 @@ export default function WhyChooseUs() {
               </div>
 
               <div className="why-choose-contact-circle">
-                <Image
+                {/* <Image
                   src="/images/contact-us-img.svg"
                   alt="Contact us"
                   width={150}
                   height={150}
-                />
+                /> */}
               </div>
             </div>
           </div>
