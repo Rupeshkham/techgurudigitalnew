@@ -70,12 +70,7 @@ export default function ECommerceSolutions() {
                   data-wow-delay="0.25s"
                 >
                   <div className="cta-box-content">
-                    <Image
-                      src="/images/logo.svg"
-                      alt="logo"
-                      width={150}
-                      height={50}
-                    />
+                   
                     <h3>Need Help? We Are Here To Help You</h3>
                   </div>
 

@@ -18,7 +18,7 @@ const menuData = [
     items: [
       { label: "About Us", href: "/about" },
       { label: "FAQS", href: "/faqs" },
-      { label: "Company Profile", href: "/profile" },
+      { label: "Contact", href: "/contact" },
     ],
   },
   {
@@ -43,26 +43,27 @@ const menuData = [
     ],
   },
   {
-    title: "LOGIN",
-    href: "https://webportal.techguru.digital",
+    title: "LEGAL",
+    href: "/",
     items: [
-      { label: "Retailor", href: "https://webportal.techguru.digital/" },
-      { label: "Distributor", href: "https://webportal.techguru.digital/" },
+      { label: "Retailor Agreement", href: "/pdf/Retailer Agreement - techguru.digital.pdf" },
+      { label: "Distributor Agreement", href: "/pdf/Distributor Agreement - techguru.digital.pdf" },
       {
-        label: "Super Distributor",
-        href: "https://webportal.techguru.digital/",
+        label: "Super Distributor Agreement",
+        href: "/pdf/Super Distributor Agreement - techguru.digital.pdf",
       },
     ],
   },
-  {
-    title: "LEGAL",
-    href: "/legal",
+   {
+    title: "LOGIN",
+    href: "https://webportal.techguru.digital",
     items: [
-      { label: "Retailor Agreement", href: "/legal/retailer" },
-      { label: "Distributor Agreement", href: "/legal/distributor" },
+      { label: "Retailor", href: "https://webportal.techguru.digital/", target:"_blank" },
+      { label: "Distributor", href: "https://webportal.techguru.digital/", target:"_blank" },
       {
-        label: "Super Distributor Agreement",
-        href: "/legal/super-distributor",
+        label: "Super Distributor",
+        href: "https://webportal.techguru.digital/",
+        target:"_blank"
       },
     ],
   },
@@ -151,6 +152,7 @@ export default function Header() {
                         <Link
                           href={item.href}
                           className="block px-3 py-2 rounded text-black hover:bg-[#028ae6] hover:!text-white transition"
+                          target={item.target}
                         >
                           {item.label}
                         </Link>
@@ -160,15 +162,6 @@ export default function Header() {
                 )}
               </li>
             ))}
-
-            <li>
-              <Link
-                href="/contact"
-                className="block px-3 py-2 rounded text-black hover:bg-[#028ae6] hover:!text-white transition"
-              >
-                CONTACT
-              </Link>
-            </li>
           </ul>
         </div>
       </div>
@@ -276,13 +269,13 @@ export default function Header() {
                           </p>
                         </Link>
 
-                        <Link href="/services/tax" className="mega-item">
+                        <Link href="/contact" className="mega-item">
                           <img
                             src="/images/icon-service-4.svg"
                             className="w-10 mb-3"
                           />
                           <h4 className="text-white font-semibold">
-                            Company Profile
+                            Contact 
                           </h4>
                           <p className="text-gray-300 text-sm">
                             Focused on compliance, reliability, and scalable
@@ -448,7 +441,79 @@ export default function Header() {
                   </li>
                   <li className="group">
                     <Link
-                      href="/services"
+                      href="/"
+                      className="px-3 py-2 block hover:text-indigo-600"
+                    >
+                      LEGAL
+                    </Link>
+
+                    <div className="absolute left-0 top-full hidden group-hover:block w-full bg-[#fff] p-[20px] shadow-2xl rounded-b-2xl z-50">
+                      <div className="grid grid-cols-3 gap-6 block">
+                        <a
+                          href="/pdf/Retailer Agreement - techguru.digital.pdf"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mega-item"
+                        >
+                          <img
+                            src="/images/icon-service-1.svg"
+                            className="w-10 mb-3"
+                            alt=""
+                          />
+
+                          <h4 className="text-white font-semibold">
+                            Retailor Agreement
+                          </h4>
+
+                          <p className="text-gray-300 text-sm">
+                            Terms for offering fintech and digital services to
+                            customers.
+                          </p>
+                        </a>
+
+                        <a
+                          href="/pdf/Distributor Agreement - techguru.digital.pdf"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mega-item"
+                        >
+                          <img
+                            src="/images/icon-service-2.svg"
+                            className="w-10 mb-3"
+                          />
+                          <h4 className="text-white font-semibold">
+                            Distributor Agreement
+                          </h4>
+                          <p className="text-gray-300 text-sm">
+                            Guidelines for managing retailers and platform
+                            operations.
+                          </p>
+                        </a>
+
+                        <a
+                          href="/pdf/Super Distributor Agreement - techguru.digital.pdf"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mega-item"
+                        >
+                          <img
+                            src="/images/icon-service-3.svg"
+                            className="w-10 mb-3"
+                          />
+                          <h4 className="text-white font-semibold">
+                            Super Distributor Agreement
+                          </h4>
+                          <p className="text-gray-300 text-sm">
+                            Framework for overseeing and scaling the
+                            distribution network.
+                          </p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="group">
+                    <Link
+                      href="/"
                       className="px-3 py-2 block hover:text-indigo-600"
                     >
                       LOGIN
@@ -507,84 +572,9 @@ export default function Header() {
                       </div>
                     </div>
                   </li>
-                  <li className="group">
-                    <Link
-                      href="/services"
-                      className="px-3 py-2 block hover:text-indigo-600"
-                    >
-                      LEGAL
-                    </Link>
+                  
 
-                    <div className="absolute left-0 top-full hidden group-hover:block w-full bg-[#fff] p-[20px] shadow-2xl rounded-b-2xl z-50">
-                      <div className="grid grid-cols-3 gap-6 block">
-                        <a
-                          href="/pdf/Retailer Agreement - techguru.digital.pdf"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="mega-item"
-                        >
-                          <img
-                            src="/images/icon-service-1.svg"
-                            className="w-10 mb-3"
-                            alt=""
-                          />
-
-                          <h4 className="text-white font-semibold">
-                            Retailor Agreement
-                          </h4>
-
-                          <p className="text-gray-300 text-sm">
-                            Terms for offering fintech and digital services to
-                            customers.
-                          </p>
-                        </a>
-
-                        <a
-                          href="/pdf//Distributor Agreement - techguru.digital.pdf"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="mega-item"
-                        >
-                          <img
-                            src="/images/icon-service-2.svg"
-                            className="w-10 mb-3"
-                          />
-                          <h4 className="text-white font-semibold">
-                            Distributor Agreement
-                          </h4>
-                          <p className="text-gray-300 text-sm">
-                            Guidelines for managing retailers and platform
-                            operations.
-                          </p>
-                        </a>
-
-                        <a
-                          href="/pdf/Super Distributor Agreement - techguru.digital.pdf"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="mega-item"
-                        >
-                          <img
-                            src="/images/icon-service-3.svg"
-                            className="w-10 mb-3"
-                          />
-                          <h4 className="text-white font-semibold">
-                            Super Distributor Agreement
-                          </h4>
-                          <p className="text-gray-300 text-sm">
-                            Framework for overseeing and scaling the
-                            distribution network.
-                          </p>
-                        </a>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li>
-                    <Link href="/contact" className="px-3 py-2 block">
-                      CONTACT
-                    </Link>
-                  </li>
+                 
                 </ul>
               </div>
             </div>
