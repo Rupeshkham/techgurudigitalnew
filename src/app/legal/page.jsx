@@ -14,7 +14,7 @@ export default function LegalPage() {
         <div className="container">
           <div className="row justify-content-center">
             {/* CENTER 8 COLUMN */}
-            <div className="col-lg-8">
+            <div className="col-lg-10">
               <div className="row">
                 <div className="col-lg-6 col-md-6 mb-4">
                   <div className="what-we-do-btn">
@@ -43,7 +43,7 @@ export default function LegalPage() {
                 <div className="col-lg-6 col-md-6 mb-4">
                   <div className="what-we-do-btn">
                     <a href="/legal" target="_blank" className="btn-default">
-                      Super Distributor Agreement
+                      Master Business Platform Usage Agreement
                     </a>
                   </div>
                 </div>

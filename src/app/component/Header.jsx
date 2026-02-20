@@ -52,6 +52,10 @@ const menuData = [
         label: "Super Distributor Agreement",
         href: "/pdf/Super Distributor Agreement - techguru.digital.pdf",
       },
+      {
+        label: "Master Business Platform Usage Agreement",
+        href: "/pdf/Super Distributor Agreement - techguru.digital.pdf",
+      },
     ],
   },
    {
@@ -515,6 +519,24 @@ export default function Header() {
                           />
                           <h4 className="text-white font-semibold">
                             Super Distributor Agreement
+                          </h4>
+                          <p className="text-gray-300 text-sm">
+                            Framework for overseeing and scaling the
+                            distribution network.
+                          </p>
+                        </a>
+                        <a
+                          href="/pdf/Super Distributor Agreement - techguru.digital.pdf"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mega-item"
+                        >
+                          <img
+                            src="/images/icon-service-3.svg"
+                            className="w-10 mb-3"
+                          />
+                          <h4 className="text-white font-semibold">
+                            Master Business Platform Usage Agreement
                           </h4>
                           <p className="text-gray-300 text-sm">
                             Framework for overseeing and scaling the
