@@ -44,7 +44,7 @@ const menuData = [
   },
   {
     title: "LEGAL",
-    href: "/",
+    href: "/legal",
     items: [
       { label: "Retailor Agreement", href: "/pdf/Retailer Agreement - techguru.digital.pdf" },
       { label: "Distributor Agreement", href: "/pdf/Distributor Agreement - techguru.digital.pdf" },
@@ -454,7 +454,7 @@ export default function Header() {
                   </li>
                   <li className="group">
                     <Link
-                      href="/"
+                      href="/legal"
                       className="px-3 py-2 block hover:text-indigo-600"
                     >
                       LEGAL
