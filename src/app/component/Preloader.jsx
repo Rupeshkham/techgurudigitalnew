@@ -22,7 +22,7 @@ export default function Preloader() {
         <div className="loading"></div>
         <div id="loading-icon">
           <Image
-            src="/images/loader.svg"
+            src="/images/fevicon.png"
             alt="Loading"
             width={80}
             height={80}
