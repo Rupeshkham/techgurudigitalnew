@@ -21,14 +21,14 @@ export default function FactCounter() {
                 </figure>
               </div>
 
-              <div className="fact-counter-skillbar">
+              {/* <div className="fact-counter-skillbar">
                 <Image
                   src="/images/fact-counter-skillbar-img.png"
                   alt="Skill Bar"
                   width={450}
                   height={120}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 

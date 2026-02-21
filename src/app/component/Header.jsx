@@ -84,7 +84,7 @@ export default function Header() {
         <div className="flex justify-between items-center p-4">
           <Link href="/">
             <Image
-              src="/images/Logo - 1.png"
+              src="/images/Logo.jpeg"
               width={120}
               height={40}
               alt="logo"
@@ -183,7 +183,7 @@ export default function Header() {
             <div className="col-span-2">
               <Link href="/">
                 <Image
-                  src="/images/Logo - 1.png"
+                  src="/images/Logo.jpeg"
                   alt="Logo"
                   width={160}
                   height={40}
