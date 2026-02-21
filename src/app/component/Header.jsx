@@ -106,7 +106,7 @@ export default function Header() {
           <div className="flex justify-between items-center p-4 border-b border-gray-700">
             <Link href="/">
               <Image
-                src="/images/Logo - 1.png"
+                src="/images/Logo.jpeg"
                 width={120}
                 height={40}
                 alt="logo"
