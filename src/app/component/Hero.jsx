@@ -112,7 +112,7 @@ export default function Hero() {
               <div className="hero-img">
                 <figure>
                   <Image
-                    src="/images/hero-img.png"
+                    src="/images/HOME PAGE.png"
                     alt="Hero"
                     width={550}
                     height={550}

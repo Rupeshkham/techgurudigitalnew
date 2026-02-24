@@ -54,7 +54,7 @@ const menuData = [
       },
       {
         label: "Master Business Platform Usage Agreement",
-        href: "/pdf/Super Distributor Agreement - techguru.digital.pdf",
+        href: "/pdf/TechGuru Digital – Business Platform Usage Agreement.pdf",
       },
     ],
   },
@@ -84,7 +84,7 @@ export default function Header() {
         <div className="flex justify-between items-center p-4">
           <Link href="/">
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo.jpeg"
               width={120}
               height={40}
               alt="logo"
@@ -106,7 +106,7 @@ export default function Header() {
           <div className="flex justify-between items-center p-4 border-b border-gray-700">
             <Link href="/">
               <Image
-                src="/images/logo.jpg"
+                src="/images/logo.jpeg"
                 width={120}
                 height={40}
                 alt="logo"
@@ -183,9 +183,9 @@ export default function Header() {
             <div className="col-span-2">
               <Link href="/">
                 <Image
-                  src="/images/logo.jpg"
+                  src="/images/logo.jpeg"
                   alt="Logo"
-                  width={160}
+                  width={180}
                   height={40}
                   priority
                 />
@@ -526,7 +526,7 @@ export default function Header() {
                           </p>
                         </a>
                         <a
-                          href="/pdf/Super Distributor Agreement - techguru.digital.pdf"
+                          href="/pdf/TechGuru Digital – Business Platform Usage Agreement.pdf"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="mega-item"
