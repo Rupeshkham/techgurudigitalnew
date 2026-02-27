@@ -84,7 +84,7 @@ export default function Header() {
         <div className="flex justify-between items-center p-4">
           <Link href="/">
             <Image
-              src="/images/logo.jpeg"
+              src="/images/Pratik1-C.png"
               width={120}
               height={40}
               alt="logo"
@@ -106,7 +106,7 @@ export default function Header() {
           <div className="flex justify-between items-center p-4 border-b border-gray-700">
             <Link href="/">
               <Image
-                src="/images/logo.jpeg"
+                src="/images/Pratik1-C.png"
                 width={120}
                 height={40}
                 alt="logo"
@@ -183,7 +183,7 @@ export default function Header() {
             <div className="col-span-2">
               <Link href="/">
                 <Image
-                  src="/images/logo.jpeg"
+                  src="/images/Pratik1-C.png"
                   alt="Logo"
                   width={180}
                   height={40}
@@ -465,7 +465,7 @@ export default function Header() {
                     </Link>
 
                     <div className="absolute left-0 top-full hidden group-hover:block w-full bg-[#fff] p-[20px] shadow-2xl rounded-b-2xl z-50">
-                      <div className="grid grid-cols-3 gap-6 block">
+                      <div className="grid grid-cols-3 gap-6 block no-copy">
                         <a
                           href="/pdf/Retailer Agreement - techguru.digital.pdf"
                           target="_blank"
